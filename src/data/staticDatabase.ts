@@ -1,7 +1,7 @@
 // src/data/staticDatabase.ts
 
-import City from '../models/City';
-import Parking from '../models/Parking';
+import { City } from '../models/City';
+import Parking  from '../models/Parking';
 import { GPS } from '../types/GPS';
 
 // Création des instances de City

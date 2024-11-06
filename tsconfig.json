@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "jsx": "react-jsx",
+      "jsxImportSource": "hono/jsx",
+      "esModuleInterop": true    // Facilite la compatibilité des modules CommonJS et ES
+    }
+  }
+  
