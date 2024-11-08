@@ -13,6 +13,7 @@ export default class Parking {
     opened: boolean;
     hourlyRate: number;
     parkIds: number[] = []; // Liste des ids de chaque Spot
+    capacity: any;
 
     constructor(name: string, city_id: number, location: GPS, numberOfSpots: number, opened: boolean, hourlyRate: number) {
         this.id = generateRandomNumberId();
