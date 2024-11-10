@@ -12,6 +12,3 @@ const ReadAllCitiesController = (app: Hono) => {
 };
 
 export default ReadAllCitiesController;
-/* On a moddifier la constante const htmlContent = generateCitiesView(cities);
-en const htmlContent = ReadAllCitiesView({ cities });
-*/
