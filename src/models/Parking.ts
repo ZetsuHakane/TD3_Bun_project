@@ -4,6 +4,8 @@ import { generateRandomNumberId } from '../utils/generateRandomNumberId';
 import { GPS } from '../types/GPS';
 import Spot from './Spot';
 
+// Constructeur Parking utiliser pour créer de instances de Parkings
+
 export default class Parking {
     id: number;
     name: string;

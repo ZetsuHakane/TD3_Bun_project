@@ -2,6 +2,8 @@
 import { City }from '../../models/City';
 import { Layout } from "../shared/Layout";
 
+// Ce fichier permet de créer une vue de toutes les villes sous forme de liste chaque ville est un hyperlien
+
 type ReadAllCitiesViewProps = {
   cities: Array<City>;
 };

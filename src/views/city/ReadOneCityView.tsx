@@ -1,6 +1,9 @@
+// // src/views/city/ReadOneCitiyController.tsx
 import { City } from "../../models/City";
 import Parking from "../../models/Parking";
 import { Layout } from "../shared/Layout";
+
+// Ce fichier permet de créer une vue d'une ville elle renvoie les details de la ville tels que la localisation le pays et si un parking est disponible
 
 type ReadOneCityViewProps = {
   city: City;

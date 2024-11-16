@@ -4,6 +4,8 @@ import { generateRandomNumberId } from '../utils/generateRandomNumberId';
 import { toSlug } from '../utils/toSlug';
 import { GPS } from '../types/GPS';
 
+// Constructeur City utiliser pour créer de instances 
+
 export class City {
     id: number;
     name: string;

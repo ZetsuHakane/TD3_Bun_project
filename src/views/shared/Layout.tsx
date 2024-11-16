@@ -1,5 +1,7 @@
 import { html } from 'hono/html';
 
+// Fichier employé dans l'intégralité des vues de l'application en tant que structure HTML de base. 
+
 type Props = {
   children: any;
   pageTitle: string;

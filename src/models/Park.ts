@@ -2,6 +2,8 @@
 
 import { v4 as uuidv4 } from 'uuid';
 
+// Constructeur Park utiliser pour créer de instances 
+
 export default class Park {
     id: string;
     spot_id: number;
